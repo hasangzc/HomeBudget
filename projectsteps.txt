@@ -1,0 +1,7 @@
+First Step:
+- Postgresql connection
+- Login Logout System
+- Daily +, - price
+- Total salary / Month
+- Monthly remaining money
+
