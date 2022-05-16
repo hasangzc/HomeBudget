@@ -14,6 +14,7 @@ class DailySpending(BaseModel):
 class UserOut(BaseModel):
     id: int
     email: EmailStr
+    monthly_salary: int
 
     class Config:
         orm_mode = True
@@ -26,11 +27,13 @@ class UserSpend(DailySpending):
 class UserCreate(BaseModel):
     email: EmailStr
     password: str
+    monthly_salary: int
 
 
 class UserLogin(BaseModel):
     email: EmailStr
     password: str
+    monthly_salary: int
 
 
 class Token(BaseModel):

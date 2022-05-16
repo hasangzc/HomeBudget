@@ -1,5 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.templating import Jinja2Templates
 
 from . import database, models
 from .routers import auth, budget, user
@@ -9,6 +10,8 @@ from .routers import auth, budget, user
 
 # Create an FastApı object
 app = FastAPI()
+templates = Jinja2Templates(directory="./app/templates")
+
 
 origins = ["*"]
 
@@ -53,5 +56,5 @@ app.include_router(auth.router)
 
 
 @app.get("/")
-async def root():
-    return {"message": "Welcome to HomeBudget Project!!!"}
+async def root(request: Request):
+    return templates.TemplateResponse("home.html", {"request": request})

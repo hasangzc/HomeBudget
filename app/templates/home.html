@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="ui input">
+    <input type="text" placeholder="Daily Spending...">
+</div>
+
+<button class="ui button primary">
+    ENTER
+</button>
+
+<table class="ui celled table">
+    <thead>
+      <tr><th>Created_at</th>
+      <th>Daily Spending</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td data-label="Created_at">16/05/2022</td>
+        <td data-label="Daily Spending">100</td>
+      </tr>
+      <tr>
+        <td data-label="Created_at">16/05/2022</td>
+        <td data-label="Daily Spending">200</td>
+      </tr>
+      <tr>
+        <td data-label="Created_at">16/05/2022</td>
+        <td data-label="Daily Spending">50</td>
+      </tr>
+    </tbody>
+  </table>
+{% endblock %}
