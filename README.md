@@ -1,5 +1,6 @@
 # HomeBudget
 HomeBudget project with FastApi
+
 HomeBudgetProject; Daily expenditure information is obtained from the user. The user specifies his salary during registration. Considered as a means of regulating the economy
 
 
