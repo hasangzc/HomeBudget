@@ -14,3 +14,5 @@ In this project;
 - JSON Web Token (JWT)  applyed
 - Setting Env variables
 - Database migration tool was used
+
+Some Screenshots;
