@@ -16,6 +16,9 @@ In this project;
 - Setting Env variables
 - Database migration tool was used
 
+You can install the necessary packages by ```pip3 freeze > requirements.txt``` command
+You can run program with ```./run``` command
+
 Some Screenshots;
 
 Postman;
@@ -38,4 +41,5 @@ PostgreSQL User Table;
 <img src="https://user-images.githubusercontent.com/75543671/169336257-15aaca6c-2078-4fac-a4eb-f171766cc33d.png" width="1000" height="300"/>
 
 
-You can install the necessary packages by ```pip3 freeze > requirements.txt```
+Swagger Doc;
+
