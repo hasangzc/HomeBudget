@@ -17,5 +17,19 @@ In this project;
 - Database migration tool was used
 
 Some Screenshots;
+
 Postmen;
+Login;
 <img src="https://user-images.githubusercontent.com/75543671/169335476-b6902b1e-c3a9-44b8-aee7-04418c2b7728.png" width="600" height="300"/>
+
+Get Budget;
+<img src="https://user-images.githubusercontent.com/75543671/169335861-a78cc814-39bf-429f-b4cf-33df49bb0f81.png" width="600" height="300"/>
+
+Create User;
+<img src="https://user-images.githubusercontent.com/75543671/169336080-7af31a06-c6cc-4826-858b-ff116b7843e7.png" width="600" height="300"/>
+
+PostgreSQL User Table;
+<img src="https://user-images.githubusercontent.com/75543671/169336257-15aaca6c-2078-4fac-a4eb-f171766cc33d.png" width="600" height="300"/>
+
+
+
