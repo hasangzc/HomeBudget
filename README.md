@@ -10,7 +10,7 @@ In this project;
 - Schemas were created with the Pydantic Module. 
 - CRUD ops applied
 - Edited Swagger Doc that is automatically created with FastAPI
-- API tests done with Postmen
+- API tests done with Postman
 - The password received from the user was added to the db as hashed
 - JSON Web Token (JWT)  applied
 - Setting Env variables
@@ -18,7 +18,7 @@ In this project;
 
 Some Screenshots;
 
-Postmen;
+Postman;
 
 Login;
 
