@@ -43,3 +43,6 @@ PostgreSQL User Table;
 
 Swagger Doc;
 
+<img src="https://user-images.githubusercontent.com/75543671/169338013-b7aead5b-5e64-4d3f-84ef-74c80aaa6d27.png" width="1000" height="300"/>
+
+
